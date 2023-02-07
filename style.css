@@ -57,3 +57,13 @@ h1 {
 h1::selection {
     all: unset;
 }
+
+img {
+    width: 350px;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+}
